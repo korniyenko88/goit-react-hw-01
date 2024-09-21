@@ -1,0 +1,26 @@
+.friends-list {
+   
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    
+    box-sizing: border-box;
+    width: 100%;
+}
+.friends-list-item {
+    border-radius: 6px;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 12px;
+    font-size: xx-large;
+    display: flex;
+}
+.friends-text {
+    margin: 0;
+}
