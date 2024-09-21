@@ -1,3 +1,5 @@
+import "./Profile.css";
+
 const Profile = (props) => {
     const { name, tag, location, image, stats } = props;
   
@@ -5,9 +7,9 @@ const Profile = (props) => {
       <div class = "profile">
         <div>
           <img src={image} alt="User avatar" />
-          <p class = "name">{name}</p>
-          <p class = "tag">{tag}</p>
-          <p class = "location">{location}</p>
+          <p className = "name">{name}</p>
+          <p className = "tag">{tag}</p>
+          <p className = "location">{location}</p>
         </div>
         
         <ul>
