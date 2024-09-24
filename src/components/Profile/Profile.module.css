@@ -24,7 +24,7 @@
     
   }
   .profilelistitem:last-child {
-    border-right: none; /* Видалити нижню межу у останнього li */
+    border-right: none;
   }
   .img {
     border-radius: 50%;
