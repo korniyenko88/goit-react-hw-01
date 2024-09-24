@@ -1,27 +1,27 @@
-.tab-item,
-.tab-body-item {
+.tabitem,
+.tabbodyitem {
   border: 1px solid black;
   text-align: center;
 }
-.transaction-tab {
+.transactiontab {
     
   margin: 0 auto;
   width: 100%;
   border-spacing: 0;
 }
-.tab-list {
+.tablist {
     color: white;
     
 }
 
-.tab-item {
+.tabitem {
   background-color: darkslategrey;
   padding: 5px 0;
   font-size: xx-large;
     font-weight: 900;
   
 }
-.tab-body-item {
+.tabbodyitem {
     width: 100px;
     padding: 5px 15px;
     font-size: xx-large;

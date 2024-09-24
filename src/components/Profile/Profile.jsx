@@ -1,33 +1,33 @@
-import "./Profile.css";
+import styles from "./Profile.module.css";
 
 const Profile = (props) => {
-    const { name, tag, location, image, stats } = props;
-  
-    return (
-      <div className = "profile">
-        <div>
-          <img className="profile-img" src={image} alt="User avatar" />
-          <p className = "profile-name">{name}</p>
-          <p className = "profile-tag">{tag}</p>
-          <p className = "profile-location">{location}</p>
-        </div>
-        
-        <ul className="profile-list">
-          <li className="profile-list-item">
-            <span>Followers</span>
-            <span>{stats.followers}</span>
-          </li>
-          <li className="profile-list-item">
-            <span>Views</span>
-            <span>{stats.views}</span>
-          </li>
-          <li className="profile-list-item">
-            <span>Likes</span>
-            <span>{stats.likes}</span>
-          </li>
-        </ul>
+  const { name, tag, location, image, stats } = props;
+
+  return (
+    <div className={styles.profile}>
+      <div>
+        <img className={styles.img} src={image} alt="User avatar" />
+        <p className={styles.profilename}>{name}</p>
+        <p className={styles.profiletag}>{tag}</p>
+        <p className={styles.profilelocation}>{location}</p>
       </div>
-    );
-  }
-  
-  export default Profile;
+      
+      <ul className={styles.profilelist}>
+        <li className={styles.profilelistitem}>
+          <span>Followers</span>
+          <span>{stats.followers}</span>
+        </li>
+        <li className={styles.profilelistitem}>
+          <span>Views</span>
+          <span>{stats.views}</span>
+        </li>
+        <li className={styles.profilelistitem}>
+          <span>Likes</span>
+          <span>{stats.likes}</span>
+        </li>
+      </ul>
+    </div>
+  );
+}
+
+export default Profile;
