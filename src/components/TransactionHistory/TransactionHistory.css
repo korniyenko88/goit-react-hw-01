@@ -1,0 +1,30 @@
+.tab-item,
+.tab-body-item {
+  border: 1px solid black;
+  text-align: center;
+}
+.transaction-tab {
+    
+  margin: 0 auto;
+  width: 100%;
+  border-spacing: 0;
+}
+.tab-list {
+    color: white;
+    
+}
+
+.tab-item {
+  background-color: darkslategrey;
+  padding: 5px 0;
+  font-size: xx-large;
+    font-weight: 900;
+  
+}
+.tab-body-item {
+    width: 100px;
+    padding: 5px 15px;
+    font-size: xx-large;
+      font-weight: 600;
+    
+}
