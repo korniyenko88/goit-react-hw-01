@@ -1,6 +1,6 @@
-import styles from "./Profile.module.css";
+import styles from './Profile.module.css';
 
-const Profile = (props) => {
+const Profile = props => {
   const { name, tag, location, image, stats } = props;
 
   return (
@@ -11,7 +11,7 @@ const Profile = (props) => {
         <p className={styles.profiletag}>{tag}</p>
         <p className={styles.profilelocation}>{location}</p>
       </div>
-      
+
       <ul className={styles.profilelist}>
         <li className={styles.profilelistitem}>
           <span>Followers</span>
@@ -28,6 +28,6 @@ const Profile = (props) => {
       </ul>
     </div>
   );
-}
+};
 
 export default Profile;

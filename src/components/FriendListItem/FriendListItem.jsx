@@ -1,4 +1,4 @@
-import styles from "./FriendListItem.module.css";
+import styles from './FriendListItem.module.css';
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
@@ -7,9 +7,9 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
       <p className={styles.friendstext}>{name}</p>
       <p
         className={styles.friendstext}
-        style={{ color: isOnline ? "green" : "red" }}
+        style={{ color: isOnline ? 'green' : 'red' }}
       >
-        {isOnline ? "Online" : "Offline"}
+        {isOnline ? 'Online' : 'Offline'}
       </p>
     </div>
   );

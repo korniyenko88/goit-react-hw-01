@@ -1,21 +1,20 @@
 .friendslist {
-   
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin-bottom: 50px;
-    box-sizing: border-box;
-    width: 100%;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  width: 100%;
 }
 .friendslistitem {
-    border-radius: 6px;
-    justify-content: center;
-    gap: 8px;
-    flex-wrap: wrap;
-    border: 2px solid black;
-    padding: 12px;
-    font-size: xx-large;
-    display: flex;
+  border-radius: 6px;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  padding: 12px;
+  font-size: xx-large;
+  display: flex;
 }
